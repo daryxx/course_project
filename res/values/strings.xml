@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ассортимент</string>
+    <string name="dis_name">Скидки</string>
+    <string name="button_text">Сканируйте штрих-код</string>
+    <string name="exit_menu">Выйти</string>
+    <string name="goToRem">Перейти в напоминания</string>
+    <string name="search">Поиск</string>
+    <string name="name_product">Наименование товара</string>
+    <string name="price">Цена (руб.)</string>
+    <string name="count">Остаток (шт/уп)</string>
+    <string name="barcode">Штрих-код</string>
+    <string name="noData">Пусто...ТТ</string>
+    <string name="type_dis">Тип скидки</string>
+    <string name="amount_dis">Размер скидки</string>
+    <string name="after_price">Цена после</string>
+    <string name="noDiscount">Нет действующих акций</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CourseProject" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/prime</item>
+        <!-- Status bar color -->
+    <!-- <item name="android:statusBarColor" tools:targetApi="l">@color/actionbar</item>-->
+        <!-- Action bar color -->
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+ </style>
+
+ <style name="Theme.CourseProject" parent="Base.Theme.CourseProject" />
+
+ <!-- SplashScreen. -->
+    <style name="SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="android:height">@dimen/bar_height</item>
+        <item name="height">@dimen/bar_height</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/bar_text_size</item>
+        <item name="android:textColor">@color/bar_text_color</item>
+    </style>
+
+    <color name="bar_text_color">#151515</color>
+    <dimen name="bar_text_size">20sp</dimen>
+    <dimen name="bar_height">50dp</dimen>
+</resources>
